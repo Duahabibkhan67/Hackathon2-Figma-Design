@@ -10,7 +10,7 @@ export default function ShopHero() {
     <>
       {/* shopsect */}
       <div className="relative">
-        <Image className="sm:w-[1440px] sm:h-[100px] md:h-auto object-cover" width={600} height={400} src="/productcom1.jpg" alt="Picture of the author" />
+        <Image className="sm:w-screen sm:h-screen md:h-auto object-cover" width={600} height={400} src="/productcom1.jpg" alt="Picture of the author" />
         <div className="absolute top-[50%] left-[50%] sm:flex sm:justify-center sm:flex-col sm:items-center ">
           <h3 className="font-bold text-[3rem]">Shop</h3>
           <div className="flex items-center">

@@ -5,21 +5,15 @@ import Image from "next/image";
 export default function Hero(){
  return(
 <div>
-<div className=" relative bg-[url('/landing1.jfif')] bg-cover bg-center sm:w-full  sm:h-screen">
-
-   <div className="xs:w-[643px] xs:h-[380px]  bg-[#FFF3E3]   ml-[739px]" >
-<div className="w-[561px] h-[344px] mx-6 ">
-<h1 className="text-2xl font-bold ">New Arrival</h1>
-<h2 className="text-[#B88E2F] font-bold text-[52px] ">Discover Our New Collection</h2>
-<h3  className="font-semibold">New Arrival
-Discover Our New Collection
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
-</h3>
-<Link href="/shop"><button className="bg-[#B88E2F] w-[222px] h-[74px] mx-4 my-9 hover:scale-110 text-white">Buy Now</button></Link>
+<div className="relative w-[1440] h-[716.83px]">
+  <Image
+    className="object-cover"
+    src="/hero1.jpg"
+    alt="Banner"
+    layout="fill" 
+    quality={100}
+  />
 </div>
-   </div>
-   </div>
-
 
    {/* section2 */}
    <section>

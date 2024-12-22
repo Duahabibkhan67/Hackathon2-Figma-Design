@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { TiThMenu } from "react-icons/ti";
-import { IoSearchOutline } from "react-icons/io5";
+
 import {
  Sheet,
  SheetContent,
@@ -35,18 +35,27 @@ export default function Navbar() {
         {/* Vector Icons */}
         <div className="md:flex ml-auto gap-[40px] hidden ">
           <div className="w-[28px] h-[28px] hover:scale-105">
-            <Link href="/productcomparison"><img src="/Vector2.png" alt="Person" /></Link>
+            <Link href="/productcomparison"><Image height={10} width={10} src="/Vector2.png" alt="Wishlist" >
+
+</Image></Link>
           </div> 
           <div>
-          <img src="/Vector3.png" alt="Wishlist" />
+            <Image height={10} width={10} src="/Vector3.png" alt="Wishlist" >
+
+            </Image>
+          
 
          
           </div> 
           <div className="w-[28px] h-[28px] hover:scale-105">
-          <img src="/Vector4.png" alt="Wishlist" />
+          <Image height={10} width={10} src="/Vector4.png" alt="Wishlist" >
+
+</Image>
           </div> 
           <div className="w-[28px] h-[28px] hover:scale-105">
-           <Link href="/cart"><img src="/Vector5.png" alt="Cart" /></Link> 
+           <Link href="/cart"><Image height={10} width={10} src="/Vector5.png" alt="Wishlist" >
+
+</Image></Link> 
           </div> 
         </div>
   </div>
